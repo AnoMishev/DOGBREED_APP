@@ -18,7 +18,7 @@ import { SharedService } from "./services/shared-service";
       BreedComponent
     ],
     imports: [
-        RouterModule,
+      RouterModule,
       CommonModule,  // Replacing BrowserModule with CommonModule
       DogBreedRouter,  // Correct routing module
       HttpClientModule,
